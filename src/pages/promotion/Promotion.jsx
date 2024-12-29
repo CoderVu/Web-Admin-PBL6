@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../promotion/Promotion.css";
 import axios from "axios";
 import LoadingSpinner from "../../Action/LoadingSpiner.js";
-import ModalComponent from "../../components/ModalComponent.js";
-import Example from "../../components/ModalComponent.js";
 import { ToastContainer, toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";

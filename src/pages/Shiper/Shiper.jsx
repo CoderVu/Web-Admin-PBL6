@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../Combo/Combo.css";
 import axios from "axios";
-import LoadingSpinner from "../../Action/LoadingSpiner.js";
-import ModalComponent from "../../components/ModalComponent.js";
-import Example from "../../components/ModalComponent.js";
 import { ToastContainer, toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 
